@@ -1,15 +1,26 @@
 # breast-cancer-prediction
 Breast Cancer Predection(Malignant or Benign) Using Logistic Regression
 
+![image](https://user-images.githubusercontent.com/80630137/125470078-299e97d1-d5c1-47e2-a05b-0fb57f6d2a17.png)
+
+
 In this project we are going to Predict whether the cancer is benign or malignant using slearn's Logistic Regression with python.We will download the dataset from kaggle. To train a logistic regression model, we can use the LogisticRegression class from Scikit-learn. We will try to cover following tasks in this project:
 
+
 Downloading a real-world dataset from Kaggle
+
 Exploratory data analysis and visualization
+
 Splitting a dataset into training, validation & test sets
+
 Scaling numeric features to a (0,1) range
+
 Training a logistic regression model using Scikit-learn
+
 Evaluating a model using a validation set and test set
+
 Saving a model to disk and loading it back
+
 
 We are going to download Breast cancer Diagnosis data set from kaggle using opendatasets module of python, and load the csv data into pandas dataframe.
 
@@ -71,4 +82,4 @@ Logistic regression is a commonly used technique for solving binary classificati
 4.instead of RMSE, the cross entropy loss function is used to evaluate the results
 
 Here's a visual summary of how a logistic regression model is structured :
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/80630137/125470007-00ab2514-ad52-4aa2-94bf-93ad7feee7e6.png)
